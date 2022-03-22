@@ -34,19 +34,25 @@ a {
     color: inherit;
 }
 
+.header-logo {
+    font-size: 24px;
+}
+
 .menu-items {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-size: 18px;
     color: var(--text-secondary);
 }
 
 .hero {
     display: flex;
-    padding: 30px;
+    padding: 100px;
     background-color: var(--theme-color);
     align-items: center;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
     color: var(--text-color);
     gap: 16px;
@@ -62,17 +68,30 @@ a {
 .hero-des {
     max-width: 500px;
     margin: 16px;
-    padding: 8px;
+    font-size: 18px;
 }
 
 .hero-title {
     margin: 16px;
-    padding: 8px;
+    font-size: 48px;
 }
 
 .hero-cta {
-    margin: 0 24px 0 24px;
+    background-color: darkorange;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    color: var(--text-color);
+    margin: 10px 16px 10px 16px;
     padding: 10px 14px 10px 14px;
+}
+
+.hero-cta:hover {
+    background-color: rgb(219, 121, 0);
+}
+
+.hero-cta:active {
+    background-color: rgb(170, 93, 0);
 }
 
 .hero-img {
@@ -89,4 +108,43 @@ a {
 
 .hero-image-container:hover img {
     border-radius: 50%;
+}
+
+.coffee-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.coffee-info-header {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.types-of-coffee {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coffee-type-image {
+    transition: 0.2s linear;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.coffee-type-image:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.coffee-type {
+    max-width: 200px;
+    height: 400px;
+    margin: 25px;
+}
+
+.coffee-type-des {
+    font-size: 18px;
 }
