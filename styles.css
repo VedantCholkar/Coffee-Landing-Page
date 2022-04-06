@@ -110,41 +110,42 @@ a {
     border-radius: 50%;
 }
 
-.coffee-info {
+.coffee-benefits {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin: 60px;
 }
 
-.coffee-info-header {
+.coffee-benefits-header {
     font-size: 40px;
     font-weight: 900;
-    margin: 50px;
 }
 
-.types-of-coffee {
+.benefits-of-coffee-items {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-.coffee-type-image {
-    transition: 0.2s linear;
+.benefits-of-coffee-image {
+    width: 100%;
     border-radius: 20px;
-    max-width: 200px;
+    max-width: 300px;
+    height: auto;
 }
 
-.coffee-type-image:hover {
-    transform: scale(1.5, 1.5);
+.benefits-of-coffee-des {
+    font-size: 24px;
+    margin-top: 16px;
+    max-width: 500px;
 }
 
-.coffee-type {
-    max-width: 200px;
-    height: 400px;
-    margin: 25px;
-}
-
-.coffee-type-des {
-    font-size: 18px;
+.benefits-of-coffee {
+    display: flex;
+    gap: 100px;
 }
