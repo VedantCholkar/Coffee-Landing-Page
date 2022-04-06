@@ -158,12 +158,14 @@ a {
     padding: 100px;
     background-color: var(--text-secondary);
 }
+
 .quote-group {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 1rem;
 }
+
 .quote-text {
     font-size: 40px;
     font-weight: lighter;
@@ -172,4 +174,51 @@ a {
 
 .quote-des {
     font-size: 24px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.cta-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25rem;
+    padding: 50px 100px 50px 100px;
+    background-color: #3882F6;
+    border-radius: 20px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    gap: 0.5rem;
+}
+
+.cta-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.cta-btn {
+    background-color: darkorange;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    color: var(--text-color);
+    margin: 10px 16px 10px 16px;
+    padding: 10px 14px 10px 14px;
+}
+
+.cta-btn:hover {
+    background-color: rgb(219, 121, 0);
+}
+
+.cta-btn:active {
+    background-color: rgb(170, 93, 0);
 }
