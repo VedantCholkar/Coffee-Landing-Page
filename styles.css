@@ -222,3 +222,14 @@ a {
 .cta-btn:active {
     background-color: rgb(170, 93, 0);
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-color);
+    padding: 1rem;
+    color: white;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
