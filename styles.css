@@ -115,9 +115,9 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 60px;
+    gap: 100px;
     flex-wrap: wrap;
-    margin: 60px;
+    padding: 100px;
 }
 
 .coffee-benefits-header {
@@ -148,4 +148,28 @@ a {
 .benefits-of-coffee {
     display: flex;
     gap: 100px;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    background-color: var(--text-secondary);
+}
+.quote-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+.quote-text {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-des {
+    font-size: 24px;
 }
